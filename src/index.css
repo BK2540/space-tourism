@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&display=swap');
+
+:root {
+  font-family: 'Barlow Condensed', sans-serif , 'Bellefair', serif;
+  
+  --primary-font:'Bellefair', serif;
+  --secondary-font: 'Barlow Condensed', sans-serif ;
+  
+  --dark-blue: #0B0D17;
+  --light-blue: #D0D6F9;
+ 
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+

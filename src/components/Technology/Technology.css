@@ -1,0 +1,137 @@
+.technology{
+    background-image: url(../../assets/bg4.jpg);
+
+    height: 100vh;
+    width: 100%;
+
+    overflow: hidden;
+    position: relative;
+}
+
+.technology-intro{
+    padding: 2rem 5rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.technology-intro>span:nth-child(1){
+    font-family: var(--secondary-font);
+    color: white;
+    opacity: 0.25;
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 4.725px;
+}
+
+.technology-intro>span:nth-child(2){
+    font-family: var(--secondary-font);
+    color: white;
+    font-size: 1.75rem;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4.725px;
+    text-transform: uppercase;
+}
+
+.technology-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.technology-container_l{
+    flex: 1.2;
+    display: flex;
+}
+
+.tech-nav_dot{
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+
+    text-align: center;
+    font-family: var(--primary-font);
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    margin-right: 3rem;
+
+    cursor: pointer;
+}
+
+.tech-nav_dot:hover{
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.active{
+    background-color: white;
+    color: var(--dark-blue);
+}
+
+.tech-contents{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+
+    gap: 1rem;
+}
+
+.tech-contents>span:nth-child(1){
+    color: var(--light-blue);
+    font-family: var(--secondary-font);
+    font-size: 1rem;
+}
+
+.tech-contents_title{
+    font-family: var(--primary-font);
+    font-size: 3.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: normal;
+    color: white;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.tech-contents_desc{
+    color: var(--light-blue);
+    font-family: var(--secondary-font);
+    font-size: 1rem;
+    font-weight: 400;
+    padding-right: 10rem;
+    text-align: justify;
+    font-style: normal;
+    line-height: 2rem;
+
+    width: 100%;
+}
+
+.technology-container_r{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: end;
+    
+}
+
+.technology-container_r img{
+    width: 26rem;
+    height: 29rem;
+    position: absolute;
+    top: 10rem;
+}

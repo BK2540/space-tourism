@@ -1,0 +1,139 @@
+.crew{
+    background-image: url(../../assets/bg3.jpg);
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    overflow: hidden;
+}
+
+.crew-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.crew-container_left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 0 5rem;
+    padding-bottom: 2rem;
+}
+
+.crew-intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    padding-bottom: 5rem;
+}
+
+.crew-intro>span:nth-child(1){
+    font-family: var(--secondary-font);
+    color: white;
+    opacity: 0.25;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 4.725px;
+    padding-right: 1rem;
+}
+
+.crew-intro>span:nth-child(2){
+    font-family: var(--secondary-font);
+    color: white;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4.725px;
+}
+
+.crew-contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    gap: 1rem;
+}
+
+.crew-contents_job{
+    font-family: var(--primary-font);
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: normal;
+    color: white;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+    opacity: 0.5;
+}
+
+.crew-contents_name{
+    font-family: var(--primary-font);
+    font-size: 3.2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: normal;
+    color: white;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.crew-contents_desc{
+    color: var(--light-blue);
+    font-family: var(--secondary-font);
+    font-size: 1rem;
+    font-weight: 400;
+    padding-right: 10rem;
+    text-align: justify;
+    font-style: normal;
+    line-height: 2rem;
+}
+
+.crew-nav {
+    display: flex;
+    flex-direction: row;
+
+    gap: 1rem;
+    padding-top: 3rem;
+
+    cursor: pointer;
+
+    .dot{
+        width: 0.6rem;
+        height: 0.6rem;
+        border-radius: 50%;
+    
+        background-color: var(--light-blue);
+        opacity: 0.6;
+    }
+
+    .dot:hover{
+        opacity: 0.8;
+        scale: 1.02;
+    }
+
+    .dot.active{
+        background-color: white;
+        opacity: 1;
+    }
+    
+}
+
+
+.crew-image{
+    flex: 1;
+}
+
+.crew-image img{
+    height: 30rem;
+    padding: 3rem 0;
+}
